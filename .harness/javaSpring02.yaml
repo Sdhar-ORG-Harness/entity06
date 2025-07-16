@@ -1,0 +1,22 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: defaulter002
+name: javaSpring02
+owner: Shibam Dhar
+orgIdentifier: default
+projectIdentifier: sd2
+spec:
+  lifecycle: experimental
+  ownedBy:
+  - group/sample-group
+metadata:
+  description: This entity ids for shibamDharDevrel
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/Sdhar-ORG-Harness/entity06
+  links:
+  - title: Website
+    url: http://my-sample-website.com
+  tags:
+  - my-sample
